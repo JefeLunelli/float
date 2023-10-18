@@ -1,0 +1,27 @@
+.float .left {
+    float: left;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.float .right {
+    float: right;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+/* Pseudo-classe pra não ficar com altura 0*/
+.float:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
